@@ -1,0 +1,20 @@
+#
+# H2O_IR_DD
+#
+
+%scf
+ SCFMode Conventional
+ MaxDisk 2500
+ MaxIntMem 2048
+end
+! B3LYP NoRI 6-31G(d) 
+
+! OPT
+! FREQ
+
+
+* internal 0 1
+O 0 0 0 0.0000000 0.0000000 0.0000000
+H 1 0 0 0.9689892 0.0000000 0.0000000
+H 1 2 0 0.9689070 102.70810 0.0000000
+*
